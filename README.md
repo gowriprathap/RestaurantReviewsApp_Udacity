@@ -1,12 +1,12 @@
 # Restaurant Reviews App
----
+
 ### Udacity Front End Web Developing Project
 
 ## Project description
 
 A static webpage is to be converted to a mobile ready web application by adding accessibility features and by making it responsive on different screen sizes. A service worker is also added to make the application available offline to users.
 
-##Running the application
+## Running the application
 
 1. Clone this repository into your local code editor by typing the following command in your terminal
 $ git clone https://github.com/gowriprathap/RestaurantReviewsApp_Udacity.git. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
