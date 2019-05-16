@@ -20,7 +20,7 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" > <!--the bar with 'home' and name of restaurant-->
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -31,22 +31,22 @@
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container" aria-label = "Map of restaurant" role="application">
+    <section id="map-container" aria-label = "Map of restaurant" role="application"> <!--aria label for accessibility-->
       <div id="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container" tabindex = "0" aria-label = "Restaurant information">
-      <h1 id="restaurant-name" tabindex = "0"></h1>
-      <img id="restaurant-img" tabindex = "0">
-      <p id="restaurant-cuisine" tabindex = "0"></p>
-      <p id="restaurant-address" tabindex = "0"></p>
-      <table id="restaurant-hours" tabindex = "0"></table>
+      <h1 id="restaurant-name" tabindex = "0"></h1> <!--tabindex for focusing using keyboard-->
+      <img id="restaurant-img" tabindex = "0"> <!--accessibility fixes-->
+      <p id="restaurant-cuisine" tabindex = "0"></p> <!--accessibility fixes-->
+      <p id="restaurant-address" tabindex = "0"></p> <!--accessibility fixes-->
+      <table id="restaurant-hours" tabindex = "0"></table> <!--accessibility fixes-->
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
     <section id="reviews-container">
-      <ul id="reviews-list" tabindex = "0"></ul>
+      <ul id="reviews-list" tabindex = "0"></ul> <!--accessibility fixes-->
     </section>
     <!-- End reviews -->
   </main>
@@ -61,6 +61,7 @@
   <!-- Beginning scripts -->
   <!-- Database helpers -->
   <script type="text/javascript" src="js/dbhelper.js"></script>
+  <!--link to js file for registering service worker-->
   <script type = "application/javascript" src = "js/Service_WorkerRegister.js"></script>
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
