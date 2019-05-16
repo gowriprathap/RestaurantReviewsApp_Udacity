@@ -5,7 +5,7 @@ self.addEventListener('install', function(event){ //adding a listener for the in
     caches.open(staticCacheName).then(function(cache){
       return cache.addAll([ //once we get the cache, we call this function to cache all the URLs
         './',
-        './index4.html',
+        './index.html',
         './restaurant.html',
         './css/styles.css',
         './data/restaurants.json',
