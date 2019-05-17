@@ -3,7 +3,7 @@ var staticCacheName = 'restaurant-static-v1'; //storing the name of the static c
 self.addEventListener('install', function(event){ //adding a listener for the install event
   event.waitUntil( //lets us signal how the install has progressed
     caches.open(staticCacheName).then(function(cache){
-      return cache.addAll([ //once we get the cache, we call this function to cache all the URLs
+      return cache.addAll([ //once we get the cache, we call this function to cache all URLs
         './',
         './index.html',
         './restaurant.html',
